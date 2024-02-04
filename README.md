@@ -1,3 +1,7 @@
 # Solana with custom tax
 
-TODO
+This work is in progress
+
+* program - the main Solana program
+* client - in Rust
+* client2 - in TS
