@@ -1,0 +1,25 @@
+[package]
+name = "my_custom_taxer"
+version = "0.0.1"
+description = "solana with custom tax"
+authors = [""]
+repository = ""
+license = "Apache-2.0"
+edition = "2018"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+borsh = "1.3.1"
+borsh-derive = "1.3.1"
+solana-program = "~1.18.1"
+spl-token = "4.0.0"
+
+[dev-dependencies]
+solana-program-test = "~1.18.1"
+solana-sdk = "~1.18.1"
+
+[lib]
+name = "my_custom_taxer"
+crate-type = ["cdylib", "lib"]

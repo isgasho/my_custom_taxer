@@ -1,0 +1,17 @@
+[package]
+name = "my_custom_taxer_client"
+version = "0.0.1"
+description = "solana with custom tax"
+authors = [""]
+repository = ""
+license = "Apache-2.0"
+edition = "2018"
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+solana-sdk = "~1.18.1"
+spl-token = "4.0.0"
+solana-program = "~1.18.1"
+solana-client = "1.18.1"

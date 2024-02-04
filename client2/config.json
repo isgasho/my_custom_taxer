@@ -1,0 +1,7 @@
+{
+  "keypair_path": "/home/alex/solana_keys/k1.json",
+  "token_program_id": "CU7yXTPEssGtUfcUooXmYv6rQrKaFL5E7ovtSxRSVAXM",
+  "token_account_id": "TODO",
+  "dex_program_id": "TODO",
+  "rpc_url": "https://api.devnet.solana.com"
+}
